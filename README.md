@@ -77,6 +77,7 @@ The options in the file header map to options in the [`acf_register_block_type` 
 | `Mode`             | The display mode for your block. auto: Preview is shown by default but changes to edit form when block is selected. preview: Preview is always shown. Edit form appears in sidebar when block is selected. edit: Edit form is always shown. | `auto`, `preview` or `edit` |_optional_ (defaults to `preview`) |
 | `Align`            | The default block alignment. | `left center right wide full` |_optional_ (defaults to empty string)
 | `PostTypes`        | An array of post types to restrict this block type to. Sepearate values with a space. | i.e. `post page` |
+| `SupportsAnchor`   | This property adds a field to define an id for the block, useful for anchor links | `true`  or `false` |_optional_ (defaults to `false`) |
 | `SupportsAlign`    | This property adds block controls which allow the user to change the block’s alignment. Set to true to show  all alignments, false to hide the alignment toolbar. Set to an array (strings separated by spaces) of specific alignment names to customize the toolbar. | (boolean) `true`, `false`<br> or (array) `left center right wide full` | _optional_ (defaults to true) |
 | `SupportsMode`     | This property allows the user to toggle between edit and preview modes via a button. | `true`  or `false` |_optional_ (defaults to `true`) |
 | `SupportsMultiple` |This property allows the block to be added multiple times. | `true`  or `false` |_optional_ (defaults to `true`) |
